@@ -1,15 +1,23 @@
-.container.contact__container{
+.mailsize {
+    font-size: 0.8rem;
+}
+
+.container.contact__container {
     width: 58%;
     display: grid;
     grid-template-columns: 30% 58%;
+    /* gap: 12%; */
     gap: 12%;
 }
-.contact__options{
+
+.contact__options {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+
 }
-.contact__option{
+
+.contact__option {
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 1.2rem;
@@ -18,29 +26,32 @@
     transition: var(--transition);
 }
 
-.contact__option:hover{
+.contact__option:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
 
 }
 
-.contact__option-icon{
+.contact__option-icon {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
-.contact__option a{
+
+.contact__option a {
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
 }
 
 
-form{
+form {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
 }
-input,textarea{
+
+input,
+textarea {
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
@@ -54,7 +65,7 @@ input,textarea{
 /* =========== Media Queries(Medium Devices) =============== */
 
 @media screen and (max-width:1024px) {
-    .container.contact__container{
+    .container.contact__container {
         grid-template-columns: 1fr;
         gap: 2rem;
 
@@ -66,7 +77,7 @@ input,textarea{
 /* =========== Media Queries(Small Devices) =============== */
 
 @media screen and (max-width:600px) {
-    .container.contact__container{
+    .container.contact__container {
         width: var(--container-width-sm);
 
     }
