@@ -7,8 +7,9 @@ import IMG4 from "../../assets/Edusity.png";
 import IMG5 from "../../assets/Bharat Clock.png";
 import IMG6 from "../../assets/Todo App.png";
 import IMG7 from "../../assets/calculator.png";
-import IMG8 from "../../assets/usabilityhub.png";
-import IMG9 from "../../assets/musicplayer.png";
+import IMG8 from "../../assets/password generator.png";
+import IMG9 from "../../assets/usabilityhub.png";
+import IMG10 from "../../assets/musicplayer.png";
 
 const data = [
   {
@@ -62,17 +63,23 @@ const data = [
     github: "https://github.com/Ujjwal835/Calculator",
     demo: "https://ujjwal835.github.io/Calculator/",
   },
-
   {
     id: 8,
     image: IMG8,
+    title: "Password Generator",
+    github: "https://github.com/Ujjwal835/Password-Generator",
+    demo: "https://ujjwal835.github.io/Password-Generator/",
+  },
+  {
+    id: 9,
+    image: IMG9,
     title: "UsabilityHub Clone",
     github: "https://github.com/Ujjwal835/UsabilityHub-Clone",
     demo: "https://ujjwal835.github.io/UsabilityHub-Clone/",
   },
   {
-    id: 9,
-    image: IMG9,
+    id: 10,
+    image: IMG10,
     title: "Music Player",
     github: "https://github.com/Jindal69/Spotify-Clone",
     demo: "https://jindal69.github.io/Spotify-Clone/",
