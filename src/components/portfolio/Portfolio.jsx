@@ -10,8 +10,16 @@ import IMG7 from "../../assets/calculator.png";
 import IMG8 from "../../assets/password generator.png";
 import IMG9 from "../../assets/usabilityhub.png";
 import IMG10 from "../../assets/musicplayer.png";
+import IMG11 from "../../assets/11.png";
 
 const data = [
+  {
+    id: 11,
+    image: IMG11,
+    title: "Music Academy",
+    github: "https://github.com/Ujjwal835/music-academy",
+    demo: "https://ujjwal835.github.io/music-academy/",
+  },
   {
     id: 1,
     image: IMG1,
