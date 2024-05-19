@@ -11,8 +11,16 @@ import IMG8 from "../../assets/password generator.png";
 import IMG9 from "../../assets/usabilityhub.png";
 import IMG10 from "../../assets/musicplayer.png";
 import IMG11 from "../../assets/11.png";
+import IMG12 from "../../assets/jindal-case.png";
 
 const data = [
+  {
+    id: 12,
+    image: IMG12,
+    title: "Jindal Case Shop",
+    github: "https://github.com/Ujjwal835/Mobile-case-shop",
+    demo: "https://mobile-case-shop.vercel.app/",
+  },
   {
     id: 11,
     image: IMG11,
